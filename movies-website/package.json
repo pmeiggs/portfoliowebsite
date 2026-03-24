@@ -1,6 +1,7 @@
 {
   "name": "movies-website",
   "version": "0.1.0",
+  "homepage": "https://pmeiggs.github.io/portfoliowebsite",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -10,10 +11,11 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://pmeiggs.github.io/portfoliowebsite"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

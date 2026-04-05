@@ -1,0 +1,25 @@
+.nav li {
+
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+.nav li a {
+
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav li a:hover,
+.nav li a.active {
+
+    color: var(--primary);
+
+}

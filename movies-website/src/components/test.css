@@ -1,0 +1,15 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 300px;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}

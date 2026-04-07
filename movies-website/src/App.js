@@ -7,12 +7,14 @@ import Movies from './components/Movies';
 
 function App() {
   return (
-    <>
+    <div>
     <Header /> 
     <Banner />
-    <Test />
-    <Movies />
-    </>
+    {/* <Test />
+    <Movies /> */}
+    
+    </div>
+    
   );
 }
 

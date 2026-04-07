@@ -1,0 +1,18 @@
+[
+  {
+    "_id": 1,
+    "bgImg": "../assets/movies/bg-yourname.jpg",
+    "previewImg": "../assets/movies/yourname.jpg",
+    "video": "https://www.youtube.com/embed/TxPNrwbuxN0",
+    "title": "Your Name",
+    "year": "2023",
+    "date": "18th September",
+    
+    "length": "2h 07min",
+    "category": "Adventure",
+    "type": "coming",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus sed. Proin ornare nec massa eget rhoncus. In rutrum",
+    "active": true
+    
+  }
+]

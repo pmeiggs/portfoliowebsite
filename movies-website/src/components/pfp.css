@@ -1,0 +1,44 @@
+.loginIcon {
+    width: 50px;
+    height: auto;
+    border-radius: 300px;
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+.loginIcon:hover {
+    transform: scale(1);
+    transition: 0.3s;
+    padding-top: 1px;
+}
+
+.loginIconButton {
+    background: transparent;
+    border: transparent;
+    cursor: pointer;    
+    border-radius: 300px;
+      transform: scale(1);
+  transition: transform 0.3s;
+
+}
+.loginIconButton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.loginIconButton.loginIconButton:un-hover {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.loginIcon:un-hover {
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.loginText {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    
+}

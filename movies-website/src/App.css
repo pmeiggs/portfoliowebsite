@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 
 }
 
-.movie-banners {
+/* .movie-banners {
   display: flex;
   gap: 20px;
   padding: 20px;
@@ -31,4 +31,4 @@ body::-webkit-scrollbar {
   border-radius: 50px;
   width: 200px;
   height: 300px;
-}
+} */

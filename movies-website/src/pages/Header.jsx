@@ -4,6 +4,7 @@ import navListData from '../data/navListData';
 import "./header.css";
 import Search from '../components/Search';
 import logo from '../images/logo.png';
+import Pfp from '../components/Pfp';
 
 
 function Header() {
@@ -21,7 +22,8 @@ function Header() {
                 }
                 
             </ul>
-            <Search />
+            {/* <Search /> */}
+            <Pfp />
         </header>
         
     );

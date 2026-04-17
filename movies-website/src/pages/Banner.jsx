@@ -19,7 +19,7 @@ function Banner() {
 
   return (
     <div className="banner movie">
-      <img src={bgImg} alt="Background Image" className="bgImg active" />
+      <img src="" alt="Background Image" className="bgImg active" />
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 col-md-12">

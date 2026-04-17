@@ -13,7 +13,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: #e2ecfffe;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -23,12 +23,3 @@ body::-webkit-scrollbar {
 
 }
 
-/* .movie-banners {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  overflow-x: auto;
-  border-radius: 50px;
-  width: 200px;
-  height: 300px;
-} */

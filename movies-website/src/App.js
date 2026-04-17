@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './pages/Header';
 import Banner from './pages/Banner';
-import Test from './components/Test';
-import Movies from './components/Movies';
+import GetStarted from './pages/GetStarted';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
     <Banner />
     {/* <Test />
     <Movies /> */}
-    
+    <GetStarted />
+    <Footer />
     </div>
     
   );

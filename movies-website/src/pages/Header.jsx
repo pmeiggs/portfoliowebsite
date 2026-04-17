@@ -2,7 +2,6 @@ import React from 'react';
 import NavListItem from '../components/NavListItem';
 import navListData from '../data/navListData';
 import "./header.css";
-import Search from '../components/Search';
 import logo from '../images/logo.png';
 import Pfp from '../components/Pfp';
 
@@ -10,8 +9,8 @@ import Pfp from '../components/Pfp';
 function Header() {
     return (
         <header> 
-            <img className="logoimage" src={logo} alt="Logo" />
-            <a href="/" className="logo">123moovies</a>
+            <img className="logoimage" src="" alt="Logo" />
+            <a href="/" className="logo">Transactions123</a>
 
             <ul className="nav">
 

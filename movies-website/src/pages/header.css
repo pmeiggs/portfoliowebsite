@@ -10,7 +10,7 @@ header {
     padding: 30px 80px;
     transition: 0.5s;
     z-index: 10000;
-    background-color: rgb(249, 220, 164);
+    background-color: rgba(226, 226, 226, 0);
 
 }
 

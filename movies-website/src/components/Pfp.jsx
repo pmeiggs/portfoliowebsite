@@ -17,10 +17,9 @@ function Pfp() {
             <button className='loginIconButton' 
             onClick={togglepopup}>
                 <img src={logoImage} alt="icon" className='loginIcon' />
-                <p className="loginText">user</p>
-                {seen ? <Login toggle={togglepopup} /> : null}
-                </button>
                 
+                {seen ? <Login toggle={togglepopup} /> : null}
+                </button><p className="loginText">user</p>
         </div>
     );
 } 
